@@ -33,6 +33,7 @@ class CarModel(models.Model):
         ('SEDAN', 'Sedan'),
         ('SUV', 'SUV'),
         ('WAGON', 'Wagon'),
+        ('HATCHBACK','Hatchback')
     ]
     type = models.CharField(max_length=15, choices=CAR_TYPES)
     year = models.IntegerField(default=2024, validators=[
