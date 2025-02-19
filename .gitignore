@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 venv
+djangoenv
 
 # C extensions
 *.so
